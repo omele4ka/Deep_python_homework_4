@@ -14,5 +14,6 @@ def key_args_dict(**kwags) -> dict:
 
     return result_dict
 
+
 my_dict = key_args_dict(res=1, reverse=[1, 2, 3])
 print(my_dict)
