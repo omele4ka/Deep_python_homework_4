@@ -3,6 +3,7 @@
 # а значение — имя аргумента. Если ключ не хешируем, используйте его строковое представление.
 # Пример: rev_kwargs(res=1, reverse=[1, 2, 3]) -> {1: 'res', '[1, 2, 3]': 'reverse'}
 
+
 def key_args_dict(**kwags) -> dict:
     result_dict = {}
     for key, value in kwags.items():
